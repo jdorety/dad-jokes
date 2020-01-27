@@ -1,0 +1,13 @@
+.joke-card {
+  background-color: #513b3c;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  border: 3px solid #28231c;
+  border-radius: 25px;
+  padding: 2%;
+}
+
+.joke-card span {
+  font-size: 2rem;
+}
