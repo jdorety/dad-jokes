@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <JokeCard joke={joke} />
+      {joke && <JokeCard joke={joke} />}
     </div>
   );
 }
