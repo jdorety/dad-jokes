@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import JokeCard from "./components/JokeCard/";
 import axios from "axios";
 import "./App.css";
 
@@ -31,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>{joke}</h2>
+      <JokeCard joke={joke} />
     </div>
   );
 }
